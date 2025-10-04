@@ -11,9 +11,8 @@ This project implements fine-tuning of a pretrained Vision Transformer (ViT-B/16
 * **Comprehensive Visualization**: Generates confusion matrix, training curves, and per-class accuracy reports
 
 ## Pipeline Architecture
-```
+
 <img width="1759" height="1137" alt="q1_pipeline" src="https://github.com/user-attachments/assets/9aa6c730-e656-42ea-8f94-f623e3b736b8" />
-```
 
 ## Technical Components
 
@@ -222,13 +221,12 @@ TEXT_THRESHOLD = 0.3                   # Text matching threshold
 - **Output Video**: `/content/car_tracking_output.mp4`
 
 # Actual video
-```
+
 https://github.com/user-attachments/assets/a1e11b1f-fc98-4016-9e47-519adc30b20b
-```
+
 # Output video
-```
+
 https://github.com/user-attachments/assets/ce758bc9-aa33-4612-a430-28e02cc3f2bf
-```
 
 ## Limitations
 
