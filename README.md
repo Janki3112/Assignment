@@ -126,5 +126,3 @@ tqdm >= 4.65.0
 - [Supervision: Reusable Computer Vision Tools](https://github.com/roboflow/supervision)
 
 ---
-
-**Note**: This implementation demonstrates the bonus video extension feature for additional marks.
