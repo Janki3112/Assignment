@@ -104,6 +104,23 @@ CFG = {
 | ship       | 98.10%   | 981/1000      |
 | truck      | 97.30%   | 973/1000      |
 
+## Comparison Chart
+## Model Comparison (From Scratch)
+
+| Test No | Accuracy (%) | Img Size | Patch Size | Emb Dim | Depth | Num Heads | MLP Ratio | Num Classes | Batch Size | Learning Rate | Epochs | Dropout | Attn Dropout | Training Time (min) |
+|---------|-------------|----------|------------|---------|-------|-----------|-----------|------------|------------|---------------|--------|---------|--------------|-------------------|
+| Test 0  | 81          | 32       | 4          | 256     | 6     | 8         | 4         | 10         | 128        | 3.00E-04      | 50     | 0.1     | 0.1          | 35                 |
+| Test 1  | 83.15       | 32       | 4          | 384     | 8     | 6         | 4         | 10         | 256        | 1.00E-03      | 50     | 0.1     | 0            | 35.81             |
+| Test 2  | 76          | 32       | 4          | 384     | 6     | 6         | 4         | 10         | 512        | 3.00E-04      | 30     | 0.1     | 0            | 40                 |
+| Test 3  | 74.12       | 32       | 4          | 384     | 8     | 8         | 4         | 10         | 128        | 1.00E-03      | 30     | 0.1     | 0            | 38                 |
+| Test 4  | 71.77       | 32       | 4          | 256     | 8     | 8         | 4         | 10         | 256        | 3.00E-04      | 30     | 0.2     | 0.1          | 36                |
+| Test 5  | 82.32       | 32       | 4          | 256     | 8     | 8         | 4         | 10         | 256        | 1.00E-03      | 50     | 0.1     | 0            | 41                |
+| Test 6  | 81.49       | 32       | 4          | 384     | 8     | 6         | 4         | 10         | 128        | 1.00E-03      | 50     | 0.1     | 0            | 29                |
+| Test 7  | 82.77       | 32       | 4          | 384     | 8     | 6         | 4         | 10         | 256        | 3.00E-04      | 50     | 0.1     | 0            | 43                |
+| Test 8 | 83.01       | 32       | 4          | 384     | 12    | 6         | 4         | 10         | 256        | 3.00E-04      | 50     | 0.1     | 0            | 26                |
+
+
+
 ## Limitations
 * **Image Resolution**: CIFAR-10's native 32×32 resolution requires upscaling to 224×224 for ViT
 * **Training Time**: ViT requires more epochs than CNNs due to transformer architecture
